@@ -6,7 +6,7 @@ const tg = window.Telegram.WebApp;
 function App() {
 
   useEffect(() => {
-    tg.ready()
+    tg.ready();
   }, [])
 
   const onClose = () => {
@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <div className="App">
-      <button onClick={{onClose}}>Закрыть</button>
+      <button onClick={onClose}>рыть</button>
     </div>
   );
 }
